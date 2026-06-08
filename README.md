@@ -39,7 +39,7 @@ Ctot=C(N\*N)\*r
 to:
 
 Ctot=(x+1)\*C(N\*N)+C(n\*n)\*r
-Which leads to significant gains for analyses where r>>x.
+Which leads to significant gains for analyses where r>>x and N>>n.
 
 Anecdotally, a calibration procedure with N ≈ 1000, r ≈ 6000 and x ≈ 17 went from a calculation time of 2 days and 14 hours to only taking 12 minutes. 
 
